@@ -98,6 +98,7 @@ const Paymentpage = ({ username, firstName }) => {
               <img
                 src={currentUser.profilepic || "/pfp.svg"}
                 alt="Profile"
+                loading="lazy"
                 className="w-40 h-40 rounded-full border-4 border-black object-cover object-bottom"
               />
               <div className="flex flex-col justify-center items-center gap-2">
@@ -105,7 +106,7 @@ const Paymentpage = ({ username, firstName }) => {
                   @{currentUser.username}
                 </h1>
                 <p className="text-md max-sm:text-sm font-sans text-white/80">
-                  Let's help {currentUser.name} get a PS5
+                  Let&apos;s help {currentUser.name} get a PS5
                 </p>
                 <div className="supporters text-lg max-sm:text-xl font-medium">
                   {payments.length < 1 ? (

@@ -18,7 +18,7 @@ import {
   CheckCircle,
 } from "lucide-react";
 
-const page = () => {
+const About = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
@@ -115,7 +115,7 @@ const page = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-300">
-                  Enable supporters to make a real difference in creators'
+                  Enable supporters to make a real difference in creators;
                   lives, turning small contributions into big dreams.
                 </p>
               </CardContent>
@@ -153,8 +153,7 @@ const page = () => {
                       Create Your Profile
                     </h4>
                     <p className="text-gray-300">
-                      Set up your creator page with your story, goals, and what
-                      you're working towards.
+                      Set up your creator page with your story, goals, and what you&apos;re working towards.
                     </p>
                   </div>
                 </div>
@@ -204,7 +203,7 @@ const page = () => {
                       Discover Creators
                     </h4>
                     <p className="text-gray-300">
-                      Browse amazing creators or visit your favorite creator's
+                      Browse amazing creators or visit your favorite creator&apos;s
                       page directly.
                     </p>
                   </div>
@@ -387,7 +386,7 @@ const page = () => {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Whether you're a creator with big dreams or someone who loves
+            Whether you&apos;re a creator with big dreams or someone who loves
             supporting amazing projects, your journey starts here.
           </p>
           
@@ -422,7 +421,7 @@ const page = () => {
   );
 };
 
-export default page;
+export default About;
 
 export async function generateMetadata() {
   return {

@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import LoadingBox from "@/components/LoadingBox";
 import { fetchUserData, updateProfile } from "@/actions/useraction";
 
-const page = () => {
+const Dashboard = () => {
   const [form, setForm] = useState({});
   const { data: session, status, update } = useSession();
   const router = useRouter();
@@ -170,4 +170,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Dashboard;

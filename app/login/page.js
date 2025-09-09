@@ -5,7 +5,7 @@ import { useSession, signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import LoadingBox from "@/components/LoadingBox";
 
-const page = () => {
+const Login = () => {
   const { data: session } = useSession();
   const router = useRouter();
 
@@ -14,7 +14,7 @@ const page = () => {
     if (session) {
       router.push(`/${session.user.name}`);
     }
-  }, [session]);
+  }, [session,router]);
 
   return (
     <div>
@@ -238,4 +238,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Login;

@@ -12,6 +12,7 @@ const UserCard = ({ user }) => {
             <img
               src={user.profilepic || "/default-avatar.png"}
               alt={user.name || user.username}
+              loading="lazy"
               className="w-30 h-30 rounded-full border-4 border-[#8e51ea] object-cover"
             />
           </div>

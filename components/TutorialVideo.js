@@ -19,6 +19,7 @@ export default function TutorialVideo() {
           <img
             src="/video-thumbnail.png"
             alt="Custom Thumbnail"
+            loading="lazy"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-center bg-black/60 hover:bg-black/80 transition duration-300">

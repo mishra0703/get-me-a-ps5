@@ -15,6 +15,7 @@ export default async function Home() {
                 src="/ps5.png"
                 alt="ps5"
                 className="w-20 h-20 rounded-lg max-sm:w-15 max-sm:h-15"
+                loading="lazy"
               />
             </span>
           </div>
@@ -84,6 +85,7 @@ export default async function Home() {
                 src="/second.jpg"
                 className="rounded-full h-35 w-35"
                 alt=""
+                loading="lazy"
               />
               <h1 className="text-2xl font-bold">Funding for Fun</h1>
               <p className="text-md  text-center">
@@ -92,7 +94,7 @@ export default async function Home() {
               </p>
             </div>
             <div className="card w-1/3 max-sm:w-full px-5 flex flex-col justify-center items-center gap-3">
-              <img src="/third.jpg" className="rounded-full h-35 w-35" alt="" />
+              <img src="/third.jpg" className="rounded-full h-35 w-35" alt="" loading="lazy"/>
               <h1 className="text-2xl max-sm:text-3xl font-bold">Easy to help</h1>
               <p className="text-md  text-center">
                 In just a couple of taps, your fans can make the{" "}
