@@ -152,7 +152,7 @@ const Paymentpage = ({ username, firstName }) => {
                     <span className="font-bold text-green-600">
                       ₹{payment.amount / 100}{" "}
                     </span>
-                    with a message "{payment.message}"
+                    with a message &quot;{payment.message}&quot;
                   </span>
                 ))
               )}
